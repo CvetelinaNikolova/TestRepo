@@ -1,0 +1,4 @@
+FROM ubuntu   
+RUN  echo "Hello"
+EXPOSE 80
+ENTRYPOINT [ "ping" ]
