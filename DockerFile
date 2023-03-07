@@ -1,4 +1,4 @@
-FROM ubuntu   
+FROM centos
 RUN  echo "Hello"
 EXPOSE 80
 ENTRYPOINT [ "ping" ]
